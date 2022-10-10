@@ -76,7 +76,7 @@ class ParentWindow(Frame):
         for i in source_files: 
             file_path=os.path.join(source, i)
             # looping through new or modified files
-            if (datetime.now()==timedelta(hours = 24) > datetime.fromtimestamp(os.path.getmtime(file_path))):
+            if (datetime.now() - timedelta(hours = 24) < datetime.fromtimestamp(os.path.getmtime(file_path))):
                 # moves each file from rhe source to the destination
                 shutil.move(source + '/' + i, destination)
                 print(i + ' was successfully transferred.')
