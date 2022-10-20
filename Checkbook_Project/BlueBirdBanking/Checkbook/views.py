@@ -60,3 +60,6 @@ def transaction(request):
     content = {'form': form}
     # adds content of form to page
     return render(request, 'checkbook/AddTransaction.html', content)
+
+
+

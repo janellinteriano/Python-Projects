@@ -2,7 +2,7 @@
 {% block title %}Balance Sheet{% endblock %}
 {% block content %}
 			<div id="all-transactions-form">
-				<form> <!-- Use value to add the Django populated details-->
+				<form method="POST" action=""> <!-- Use value to add the Django populated details-->
 					<br>
 					<label>Account Holder:</label>
 					<input id="accountholder" type="text" name="accountHolder" value="{{ account }}" readonly>
@@ -31,10 +31,8 @@
 					<td class="left">{{ key.description }}</td>
 					<td class="right">{{ key.amount }}</td>
 					<td class="right">{{ total }}</td>
-				</tr>
-				{% endfor %}
+					{% endfor %}
 				<tr>
-						<td class="center">8/12/19</td>
 
 			<br><br>
 				</tr>
