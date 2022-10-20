@@ -8,7 +8,7 @@
  </ul>
  <br>
  <h1>Nice or Mean</h1>
- <p>This is a basic single player game where they will read through different scenerios and can choose whether to be nice or mean. Their choices will add up and their fate is decided at the end of the game. This program uses variables and multiple functions to create a fully functional game!</p>
+ <p>This is a basic single player game where the user will read through different scenerios and can choose whether to be nice or mean. Their choices will add up and their fate is decided at the end of the game. This program uses variables and multiple functions to create a fully functional game!</p>
  <br>
 <h1>Phonebook</h1>
 <p>This project is able to store users' names, phone numbers, and email adresses into a database. Here the user is able to edit and delete different entries of their choosing.</p>
