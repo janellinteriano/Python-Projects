@@ -1,5 +1,5 @@
 # Python-Projects
-<P>This is a collection of basic Python projects I've made.</p>
+<P>This is a collection of projects written in Python.</p>
 <ul>
   <li>Nice or Mean</li>
   <li>Phonebook</li>
