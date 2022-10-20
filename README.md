@@ -4,6 +4,7 @@
   <li>Nice or Mean</li>
   <li>Phonebook</li>
   <li>GUI Files Project</li>
+  <li>Checkbook Project</li>
  </ul>
  <br>
  <br>
@@ -15,3 +16,5 @@
 <p>This project is able to store users' names, phone numbers, and email adresses into a database. Here the user is able to edit and delete different entries of their choosing.</p>
 <h1>GUI Files Project</h1>
 <p>Users are able to transfer their .txt files to another directory of their choosing. The files are then stored into a database.</p>
+<h1>Checkbook Project</h1>
+<p>This project works as an application for keeping track of various bank accounts. Users can create their own account and add transactions. Their account balance is then updated and displayed for the user.</p>
